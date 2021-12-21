@@ -38,4 +38,4 @@ const isExist = async (path) => {
     
 };
 
-export { saveKeyValue, getKeyValue };
+export { saveKeyValue, getKeyValue, TOKEN_DICTIONARY };
