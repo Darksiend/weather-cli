@@ -18,6 +18,11 @@ const saveToken = async (token) => {
     
 }
 
+const getForecast = async () => {
+    const weather = await getWeather('moscow');
+    console.log(weather);
+}
+
 const initCLI = () => {
     const args = getArgs(process.argv)
     
@@ -30,8 +35,7 @@ const initCLI = () => {
     if (args.t) {
        return saveToken(args.t);
     }
-    getWeather('moscow');
-
+    getForecast()
     // Вывести погоду
 };
 
