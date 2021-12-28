@@ -2,6 +2,10 @@ import https from 'https';
 import axios from 'axios';
 import { getKeyValue, TOKEN_DICTIONARY } from './storage.service.js'
 
+const getIcon = () => {
+    
+};
+
 const getWeather = async(city) => {
     const token = process.env.TOKEN ?? await getKeyValue(TOKEN_DICTIONARY.token);
     if (!token) {

@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-by-darksiend",
   "version": "1.0.0",
   "description": "Cli for Getting weather",
   "main": "weather.js",
@@ -14,7 +14,7 @@
     "cli",
     "weather"
   ],
-  "author": "Darksiend",
+  "author": "Anton Chesnokov",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",
